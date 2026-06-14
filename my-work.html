@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Work Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: #f8f9fa;
+      font-family: Arial, sans-serif;
+    }
+    h2 {
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .work-section {
+      padding: 60px 0;
+    }
+    .card {
+      border: none;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-body {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container text-center py-5">
+    <h1>My Work Gallery</h1>
+    <p class="lead">A showcase of my projects in Web Development, Design, and more.</p>
+  </div>
+
+  <!-- Web Development Section -->
+  <section class="work-section bg-light">
+    <div class="container">
+      <h2 class="text-center">Web Development</h2>
+      <div class="row g-4">
+        <!-- Project 1 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+           <img src="images/eximus education.png" alt="eximus education ">
+            <div class="card-body">
+              <h5 class="card-title">Eximus Education</h5>
+              <p class="card-text">Responsive Website built with HTML, CSS, and Javascript.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <img src="https://via.placeholder.com/400x250?text=Web+Project+2" class="card-img-top" alt="Web Project 2">
+            <div class="card-body">
+              <h5 class="card-title">E-commerce Website</h5>
+              <p class="card-text">Custom online store with cart and checkout features.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Design Section -->
+  <section class="work-section">
+    <div class="container">
+      <h2 class="text-center">Design</h2>
+      <div class="row g-4">
+        <!-- Design 1 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <img src="https://via.placeholder.com/400x250?text=Design+1" class="card-img-top" alt="Design Work 1">
+            <div class="card-body">
+              <h5 class="card-title">Logo Design</h5>
+              <p class="card-text">Minimalistic logo created in Illustrator for a startup brand.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Design 2 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <img src="https://via.placeholder.com/400x250?text=Design+2" class="card-img-top" alt="Design Work 2">
+            <div class="card-body">
+              <h5 class="card-title">Poster Design</h5>
+              <p class="card-text">Creative poster design made for a campaign event.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Others Section -->
+  <section class="work-section bg-light">
+    <div class="container">
+      <h2 class="text-center">Other Projects</h2>
+      <div class="row g-4">
+        <!-- Other Work 1 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <img src="https://via.placeholder.com/400x250?text=Other+Work+1" class="card-img-top" alt="Other Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Mobile App UI</h5>
+              <p class="card-text">Designed and prototyped UI/UX for a food delivery app.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Other Work 2 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="card">
+            <img src="https://via.placeholder.com/400x250?text=Other+Work+2" class="card-img-top" alt="Other Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Cybersecurity Report</h5>
+              <p class="card-text">Wrote a research paper analyzing emerging cyber threats.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center py-4 bg-dark text-light">
+    <p>© 2025 My Portfolio | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
